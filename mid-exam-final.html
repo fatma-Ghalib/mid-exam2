@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+        crossorigin="anonymous">
+    <!-- MDBootstrap flags -->
+    <link href="MDB-Free_4.19.1/css/addons/flag.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <title> Mid-Exam</title>
+
+</head>
+
+<body >
+
+    <div class=" div-form " id="form-log-up">
+        <form class=" validate-form  main-form ">
+            
+    <div class="close-btn">X</div>
+            <span class="form-title">
+                Form Register
+            </span>
+
+
+            <div class="validate-input ">
+                <label >  NAME </label>
+                <input class="input2  form-control" id="name" type="text"   placeholder="Enter your name">
+                <div id="vild-name"  class="vild-input">  </div>
+            </div>
+            <div class="validate-input">
+                <label >  Age </label>
+                <input class="input2  form-control" id="Age" type="number"   placeholder="Enter your Age">
+                <div id="vild-Age"  class="vild-input">  </div>
+            </div>
+
+            <div class="validate-input">
+                <label >  Email</label>
+                <input class="input2  form-control" id="Email" type="email"   placeholder="Enter your Email">
+                <div id="vild-Email"  class="vild-input">  </div>
+            </div>
+            <div class="validate-input">
+                <label > Password</label>
+
+                <input class="input2  form-control" id="Password" type="password"   placeholder="Enter your Password">
+                <div id="vild-Password"  class="vild-input">  </div>
+            </div>
+
+            <div class="validate-input">
+                <label > Confirm Password</label>
+                <input class="input2  form-control" id="Confirm-Password" type="password"   placeholder="Confirm Password">
+                <div id="vild-Confirm_Pass"  class="vild-input">  </div>
+            </div>
+           
+
+            <button type="submit" id="submit-btn" class="btn-Submit " >submit</button>
+
+        
+        </form>
+    </div>
+
+    <div class=" div-form " id="form-log-in">
+        <form class=" validate-form  main-form ">
+            
+    <div class="close-btn">X</div>
+            <span class="form-title">
+                Form Register
+            </span>
+
+
+            <div class="validate-input ">
+                <label >  NAME  </label>
+                <input class="input2  form-control" id="name" type="text"   placeholder="Enter your name ">
+                <div id="vild-name"  class="vild-input">  </div>
+            </div>
+            <div class="validate-input">
+                <label > Password</label>
+
+                <input class="input2  form-control" id="Password" type="password"   placeholder="Enter your Password">
+                <div id="vild-Password"  class="vild-input">  </div>
+            </div>
+
+        
+           
+
+            <button type="submit" id="submit-btn" class="btn-Submit " > LOG IN </button>
+
+        
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid header hide">
+    <div class="row">
+        <div class="row right">
+
+
+
+            <div class="col-md-10 mt-0">
+                <img class="d-flex inline justify-content-left float-left" alt="Bootstrap Image Preview"
+                    src="img/h1e.jpg" width="400px" height="150px" />
+            </div>
+            <div class='col-md-2 inline d-flex justify-content-right  text-nowrap'>
+
+                <form role="form " >
+                    <div class="form-group  from-style  ">
+                      
+                        <button type="button" id="up" class="btn btn-outline-danger" > Log UP </button>
+                        <button type="button" id="in" class="btn btn-secondary"> log IN </button>
+
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">select countiry
+                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                              <li   class="united states flag flag-ff"></li>
+                              <li><a href="#">CSS</a></li>
+                              <li><a href="#">JavaScript</a></li>
+                            </ul>
+                          </div>
+
+
+
+                        <button type="button" class="btn btn-outline-dark"> AR</button>
+                        <i class="yemen flag flag-ff"></i>
+                        <!--<i class="united states flag"></i>-->
+
+
+
+                    </div>
+                </form>
+
+            </div>
+
+           
+        </div>
+       
+
+
+           
+       
+
+    </div>
+
+
+
+
+
+
+    <nav class="navbar navbar-expand-sm  navbar-dark  hide"  style="height: 70px;">
+
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class=" justify-content-center collapse navbar-collapse   col-offcet" id="collapsibleNavbar">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link  fa fa-home" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  fa fa-store" href="#"> Store </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  fa fa-th-large" href="#"> exclusive offers </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link     fa fa-about " href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  fa fa-envelope-square " href="#"> Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row hide">
+        <div class="col-lg-10   m-auto">
+          
+            <div class="carousel slide" id="carousel-254151">
+                <ol class="carousel-indicators">
+                    <li data-slide-to="0" data-target="#carousel-254151">
+                    </li>
+                    <li data-slide-to="1" data-target="#carousel-254151" class="active">
+                    </li>
+                    <li data-slide-to="2" data-target="#carousel-254151">
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img class="d-block w-100" alt="Carousel Bootstrap First" src="img/silder.jpg" />
+                       
+                    </div>
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" alt="Carousel Bootstrap Second" src="img/slider2.jpg" />
+                      
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" alt="Carousel Bootstrap Third" src="img/slider3.jpg" />
+                     
+                    </div>
+                </div> <a class="carousel-control-prev" href="#carousel-254151" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#carousel-254151" data-slide="next"><span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+            </div>
+        </div>
+        </div>
+
+        </div>
+
+
+            
+
+
+            <div class="row justify-content-center row1">
+
+                <div class="col-sm-1  ">
+                    <img src="img/1.jpg" class="group-img1">
+
+                </div>
+                <div class="col-sm-1 ">
+                    <img src="img/2.jpg" class="group-img1">
+
+                </div>
+                <div class="col-sm-1 ">
+                    <img src="img/3.jpg" class="group-img1">
+
+                </div>
+                <div class="col-sm-1 ">
+                    <img src="img/4.jpg" class="group-img1">
+
+                </div>
+                <div class="col-sm-1 ">
+                    <img src="img/ch7.jpg" class="group-img1">
+
+                </div>
+                <div class="col-sm-1 ">
+                    <img src="img/sh2.jpg" class="group-img1">
+
+                </div>
+                <div class="col-sm-1  ">
+                    <img src="img/sh1.jpg" class="group-img1">
+
+                </div>
+            </div>
+
+
+            
+            <p  > bags </p>
+            <div class="row justify-content-center   ">
+                <div class="col-md-6">
+        
+               
+                    <div class="row m-auto">
+                        <div class="col-md-4">
+                            <div class="card ">
+                               
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/b5.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/b2.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/b1.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-md-6">
+                    <div class="row m-auto">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/b3.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/b4.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p> Accessories </p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row m-auto">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/a1.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/a2.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/a3.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/a4.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/a5.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <p> Watches </p>
+            <div class="row m-auto">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/w1.jpg" />
+
+                              <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                <button class="btn-warning" >vew</button>
+                                <button class="btn btn-primary">price</button>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/w2.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/w3.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/w4.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/w5.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Clothes </p>
+            <div class="row m-auto">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/clo1.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/clo2.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/clo3.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/clo4.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" alt="Bootstrap Thumbnail " src="img/clo5.jpg" />
+                                <div class="btn-group"> <button class="btn btn-danger"> Bay</button>
+                                    <button class="btn-warning" >vew</button>
+                                    <button class="btn btn-primary">price</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+   
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue-grey lighten-5 hide">
+
+
+        <div class="container">
+
+            <div class="container text-center text-md-left mt-5">
+
+                <!-- Grid row -->
+                <div class="row mt-3 dark-grey-text">
+
+
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold">Flowing </h6>
+                        <h6 class="text-uppercase font-weight-bold"> Tweter</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a class="dark-grey-text" href="#!"> facebook</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="#!">instgram </a>
+                        </p>
+                      
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold"> help</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a class="dark-grey-text" href="#!"> who us</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="#!">exclusive  offers</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="#!"> Help</a>
+                        </p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <i class="fas fa-home mr-3"></i>Street</p>
+                        <p>
+                            <i class="fas fa-envelope mr-3"></i>@gmail.com  </p>
+                        <p>
+                            <i class="fas fa-phone mr-3"></i>787522412 </p>
+                        
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    </footer>
+    <!-- Footer -->
+
+    <img src="img/footer.jpg " style="width: 100%;" class="hide">
+
+
+
+   
+
+ 
+
+
+
+
+<script>
+        $(document).ready(function (){
+            
+      $("#up").click(function () {
+      
+        $("#form-log-up").show();
+        $(".hide").hide();
+      
+      });
+
+      
+      $(".close-btn").click(function () {
+        $("#form-log-up").hide();
+        $(".hide").show();
+
+      });
+
+      $("#in").click(function () {
+      
+      $("#form-log-in").show();
+      $(".hide").hide();
+    
+    });
+
+    
+    $(".close-btn").click(function () {
+      $("#form-log-in").hide();
+      $(".hide").show();
+
+    });
+
+
+        });
+
+     
+ 
+
+</script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
